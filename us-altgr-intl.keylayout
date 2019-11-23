@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-16197" name="us-altgr-intl" maxout="2">
+<keyboard group="126" id="-25794" name="us-altgr-intl" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -91,7 +91,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
-            <key code="65" output=""/>
+            <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
             <key code="69" output="+"/>
