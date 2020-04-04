@@ -1252,7 +1252,7 @@
         <when state="dead_breve" output="˘"/>
         <when state="dead_caron" output="ˇ"/>
         <when state="dead_cedilla" output="¸"/>
-        <when state="dead_circumflex" output="ˆ"/>
+        <when state="dead_circumflex" output="^"/>
         <when state="dead_diaresis" output="¨"/>
         <when state="dead_doubleacute" output="˝"/>
         <when state="dead_grave" output="`"/>
