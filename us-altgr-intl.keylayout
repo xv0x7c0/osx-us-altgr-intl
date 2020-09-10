@@ -164,7 +164,7 @@
             <key code="19" output="@"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
-            <key code="22" output="ˆ"/>
+            <key code="22" output="^"/>
             <key code="23" output="%"/>
             <key code="24" output="+"/>
             <key code="25" output="("/>
