@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-25794" name="us-altgr-intl" maxout="2">
+<keyboard group="126" id="-8706" name="us-altgr-intl" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -48,7 +48,7 @@
             <key code="7" output="x"/>
             <key code="8" action="c"/>
             <key code="9" output="v"/>
-            <key code="10" output=""/>
+            <key code="10" output="`"/>
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" action="w"/>
@@ -154,6 +154,7 @@
             <key code="7" output="X"/>
             <key code="8" action="C"/>
             <key code="9" output="V"/>
+            <key code="10" output="~"/>
             <key code="11" output="B"/>
             <key code="12" output="Q"/>
             <key code="13" action="W"/>
@@ -817,16 +818,6 @@
             <when state="none" output="6"/>
             <when state="dead_cedilla" output="6"/>
         </action>
-        <action id="a5">
-            <when state="none" output=" "/>
-            <when state="1" output="&#x0027;"/>
-            <when state="2" output="´"/>
-            <when state="3" output="¨"/>
-            <when state="4" output="&#x0022;"/>
-            <when state="5" output="`"/>
-            <when state="6" output="~"/>
-            <when state="7" output="^"/>
-        </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="dead_abovedot" output="Ȧ"/>
@@ -1037,6 +1028,16 @@
             <when state="dead_macron" output="ā"/>
             <when state="dead_ogonek" output="ą"/>
             <when state="dead_tilde" output="ã"/>
+        </action>
+        <action id="a5">
+            <when state="none" output=" "/>
+            <when state="1" output="&#x0027;"/>
+            <when state="2" output="´"/>
+            <when state="3" output="¨"/>
+            <when state="4" output="&#x0022;"/>
+            <when state="5" output="`"/>
+            <when state="6" output="~"/>
+            <when state="7" output="^"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
