@@ -15,3 +15,11 @@ This has been tested with OSX Mojave 10.14.6.
 # Improvements
 
 Basics are here for my own usage but diacritics combinations (dead-keys mode overlappings) are probably missing. Any improvement is welcome. This file has been developped with Ukulele for a US ANSI keyboard.
+
+# Bind right command key to alt
+```
+hidutil property --set '{"UserKeyMapping":
+    [{"HIDKeyboardModifierMappingSrc":0x7000000e7,
+      "HIDKeyboardModifierMappingDst":0x7000000e6}]}'
+```
+
